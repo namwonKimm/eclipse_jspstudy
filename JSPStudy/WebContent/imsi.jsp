@@ -11,9 +11,13 @@
 		String var2="JSP";
 	%>
 	<%
-		String var1 = var2 + "Web Programming" + 20;
+		String var1 = var2 + "Web Programming" + 40;
 	%>
 	출력할값:<%=var1 %><br>
 	수식계산:<%=(3+5) %>
+	<hr>
+수식계산 : <%=(3*5)%>
+	
+	
 </body>
 </html>
